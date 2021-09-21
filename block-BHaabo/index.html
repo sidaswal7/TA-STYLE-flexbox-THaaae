@@ -6,3 +6,98 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper. 
 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox assignment2</title>
+    <link rel="stylesheet" href="./assets/stylesheet/style.css">
+    <script src="https://use.fontawesome.com/a19796b27d.js"></script> 
+    <link href="https://fonts.googleapis.com/css2?family=Glory:wght@100&family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="header">
+        <div class="container flex">
+            <a class="brand" href="#">
+                <img src="./assets/logo.png" alt="logo">
+            </a>
+            <nav class="nav">
+                <a href="#">
+                    <img src="./assets/icons/bell.svg" alt="bell">
+                </a>
+                <a href="#">Sarah Jones</a>
+                <a href="#">
+                    <img src="./assets/icons/user.svg" alt="user">
+                </a>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container flex">
+            <aside class="aside">
+                <div class="side-bar">
+                    <a href="#">
+                        <img src="./assets/icons/dashboard.svg" alt="dashboard"> Dashboard
+                    </a>
+                </div>
+                <div class="side-bar article-tab">    
+                    <a href="#">
+                        <img src="./assets/icons/article.svg" alt="article"> Article
+                    </a>
+                </div>
+                <div class="side-bar">    
+                    <a href="#">
+                        <img src="./assets/icons/analytics.svg" alt="analytics"> Analytics
+                    </a>
+                </div>
+                <div class="side-bar">    
+                    <a href="#">
+                        <img src="./assets/icons/inbox.svg" alt="inbox"> Inbox
+                    </a>
+                </div>
+                <div class="side-bar">    
+                    <a href="#">
+                        <img src="./assets/icons/setting.svg" alt="settings"> Settings
+                    </a>
+                </div>
+                <div class="side-bar logout-tab">
+                    <a href="#">
+                        <img src="./assets/icons/log-out.svg" alt="logout"> Logout
+                    </a>
+                </div>
+            </aside>
+            <article class="article">
+                <div class="container">
+                    <img src="./assets/01.png" alt="01">
+                    <h1 class="heading">Why are we doing AltCampus?</h1>
+                    <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo nisi dolor enim.
+                    Repudiandae,facilis molestias repellendus sedvel repellat exercitationem iusto</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A quam iusto reiciendis nesciunt
+                    ea deserunt fuga dolorum temporibus asperiores sequi  nihil illum aperiam
+                    magnam, nam suscipit consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="read-btn">
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container flex">
+            <small class="info">&copy; ALT CAMPUS</small>
+            <nav class="nav-footer">
+                <a href="#">
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+            </nav>
+        </div>
+    </footer>
+    
+</body>
+</html>
